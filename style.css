@@ -1,0 +1,537 @@
+*{
+    padding: 0px;
+    top: 0px;
+}
+.navbar{
+    display: flex;
+    background-color:antiquewhite;
+    position:sticky;
+    top: 0;
+    z-index: 1000;
+}
+.logo{
+    flex: 1;
+    padding: 5px 30px;
+    
+}
+.logo img{
+    width: 40px;
+
+}
+.menu{
+    flex: 1;
+    margin: -70px 50px -70px 0 ;
+
+    
+    
+}
+.menu ul{
+    margin-top: 15px ;
+    margin-left: -50px;
+}
+.menu ul li{
+    display: inline-block;
+    color:black;
+    padding: 5px 10px;
+    margin-right: 5px;
+
+}
+.menu ul li:hover{
+    background-color: orange;
+}
+.menu ul li a{
+    text-decoration: none;
+}
+.Submit{
+    margin-top: 15px;
+    margin-right: 40px; 
+    
+}
+input{
+    padding: 7px 20px;
+    cursor: pointer;
+    font-weight: 500;
+}
+.signin{
+    font:white;
+    border-radius: 7px;
+    
+
+    
+}
+.signup{
+    background-color:orange;
+
+    border:none;
+    border-radius: 7px;
+}
+
+
+.sec1{
+    background: url(photo/gettyimages-1316145932-2048x2048.jpg);
+ 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:800px;
+    position: relative;
+   
+}
+.card{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.card h1{
+    font-size: 60px;
+    text-align: center;
+
+}
+.form_code{
+    text-align: center;
+}
+.card span{
+    display: inline-block;
+    font-size: large;
+    margin-left: 45px;
+    margin-top: 6px;
+    margin-bottom: 10px;
+}
+.form_code .post_code{
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 10px ;
+    border: none;
+    
+}
+.form_code button{
+    display:  inline-block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 7px;
+    border: none;
+    border-radius: 7px;
+    margin-top: 7px;
+    background-color: rgb(56, 192, 192);
+    color: aliceblue;
+}
+/*About*/
+.about{
+    width: 100%;
+    height: 780px;
+    padding: 70px 0;
+}
+.about_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.image img{
+    width: 750px;
+    position: relative;
+    top: 120px;
+    margin-left: -50px;
+}
+.about_text{
+    margin-left: -50px;
+}
+.about_text h1 span{
+    color: orange;
+    margin-right: 15px;
+    font-family: cursive;
+}
+.about_text h1{
+    font-size: 55px;
+    position: relative;
+    bottom: 50px;
+}
+.about_text h3{
+    font-size: 30px;
+    margin: 0 0 50 0;
+
+}
+.about_text p{
+    
+    text-align: justify;
+    margin-right: 40px;
+    
+}
+.about_btn{
+    color: aliceblue;
+    background-color: orange;
+    padding: 12px 25px;
+    text-decoration: none;
+    position: relative;
+    left: 55%;
+    bottom: 30px;
+}
+
+/*Menu*/
+
+.menu{
+    width: 100%;
+    padding: 70px 0; 
+}
+
+.menu h1{
+    font-size: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+
+}
+.menu h1 span{
+    color: orange;
+    margin-left: 15px;
+    font-family: cursive;
+}
+
+
+.menu_box{
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr ;
+    grid-gap: 15px;
+    margin-bottom: 30px;
+
+} 
+.menu_card{
+    width: 350px;
+    height: 480px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px solid pink;
+    background:white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    
+}
+.menu_image{
+    width: 250px;
+    height: 245px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.menu_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.menu_info{
+    text-align: center;
+
+}
+.menu_info h2{
+    color: orange;
+}
+.menu_icon{
+    color: orange;
+    margin: -10px 0 20px 0;
+
+}
+.menu_btn{
+    color: aliceblue;
+    background :black;
+    padding: 8px 15px;
+    position: relative;
+    text-decoration: none;
+    margin-top: 20px;
+
+}
+
+/*Gallery*/
+
+.gallery{
+    width: 95%;
+    padding: 70px 0;
+}
+.gallery h1{
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gallery h1 span{
+    margin-left: 15px;
+    color: orange;
+    font-family: cursive;
+}
+
+
+
+.gallery_image_box{
+    width: 100%;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+
+}
+.gallery_image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.gallery_image img{
+    width: 100%;
+
+}
+
+/*Review*/
+
+.review{
+    width: 100%;
+    height: 100vh;
+    padding:70px 0;
+}
+.review h1{
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.review h1 span{
+    margin-left: 15px;
+    font-family: cursive;
+    color: orange;
+}
+
+.review_box{
+    width: 95%;
+    margin: 70px auto;
+    display: flex;
+}
+.review_card{
+    width: 350px;
+    height: 485px;
+    box-shadow: 0 2px 8px black;
+    border-radius:8px ;
+    padding:8px 20px;
+    margin: 0 8px;
+    
+}
+.review_profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition: 0.3s;
+    
+}
+.review_card:hover .review_profile{
+    transform: translateY(-60px);
+
+}
+.review_profile img{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    border: 5px solid wheat;
+}
+.review_text{
+    text-align: center;
+
+}
+.review_text .name{
+    color: black;
+    transition: 0.3s;
+}
+.review_card:hover .review_text .name{
+    transform: translateY(-50px);
+}
+.review_icon{
+    color: orange;
+    transition: 0.3s;
+}
+.review_card:hover .review_icon{
+    transform: translateY(-30px);
+}
+.review_social i{
+    margin: 5px 1px;
+    font-size: 15px;
+    opacity: 1;
+    cursor: pointer;
+    
+}
+.review_card:hover .review_social i{
+    opacity: 1;
+    transform: translateY(-8px);
+}
+.review_text p{
+    text-align: center;
+    line-height: 22px;
+
+}
+
+/*Order*/
+
+.order{
+    width: 100%;
+    height: 100vh;
+    padding: 70px 0;
+    
+}
+.order h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 55px;
+
+}
+.order h1 span{
+    color: orange;
+    margin-right: 15px;
+    font-family: cursive;
+}
+.order_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.order_image img{
+    width: 600px;
+}
+.order_main form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0 10px;
+}
+form .input p{
+    line-height: 25px;
+}
+.input{
+    margin: 5px;
+}
+.input input{
+    width: 200px;
+    height: 30px;
+    padding: 0 10px;
+    border: 2px solid rgb(143, 138, 138);
+    background: rgb(238, 232, 232);
+    outline: none;
+    border-radius: 6px;
+    
+}
+.order_btn{
+    padding: 10px 0;
+    background: orange;
+    color: aliceblue;
+    width: 40%;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+/*Team*/
+
+.team{
+    width: 100%;
+    height: 100vh;
+    
+}
+.team h1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size:55px ;
+    margin-bottom: 30px;
+}
+.team h1 span{
+    color: orange;
+    font-family: cursive;
+    margin-left: 15px;
+}
+
+.team_box{
+    width: 100%;
+    margin: 0 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    top: 15%;
+}
+.profile{
+    width: 360px;
+    height: 450px;
+    border-radius: 50%;
+    margin: 0 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative ;
+    box-shadow: 0 0 8px black;
+    
+}
+.profile img{
+    width: 200px;
+    height: 280px;
+    border-radius: 50%;
+}
+.info{
+    margin: 3px 4px;
+}
+.name{
+    color: orange;
+    margin-bottom: 15px;
+}
+.team_icon i{
+    margin: 10px 5px 5px 0;
+}
+.team_icon i:hover{
+    color: orange;
+}
+
+/*Footer*/
+
+footer{
+    width: 99%;
+    padding: 5px 0 0 10px;
+    background: rgb(216, 208, 208);
+}
+.footer_main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.footer_tag{
+    text-align: center;
+}
+.footer_tag h2{
+    color: black;
+    font-size: 30px;
+    margin-bottom: 25px;
+
+}
+.footer_tag p{
+    margin: 4px 0;
+}
+.footer_tag i{
+    margin: 0 5px;
+
+}
+.footer_tag i:hover{
+    color: orange;
+}
+
+
+    
+  
+
+
